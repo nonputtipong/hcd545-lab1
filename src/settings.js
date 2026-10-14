@@ -7,7 +7,7 @@ const prefersReduced = (() => {
 
 export const defaults = {
   // Lab 1
-  sky: 'checker',         // 'gradient' | 'checker' | 'dark'
+  sky: 'checker',         // 'gradient' | 'checker' | 'dark' | 'anime'
   shadows: false,         // sun shadows on or off (they show which objects float and which sit on the floor)
   cues: 'solids',         // scale cues (the sofa and car load only when asked for): 'all' | 'solids' (geometric solids only) | 'models' (sofa and car only)
   // Lab 2

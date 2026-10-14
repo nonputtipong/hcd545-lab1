@@ -47,7 +47,7 @@ document.body.append(
   h('div', { class: 'stack' }, caps.el, caps.showBtn),
   h('div', { id: 'bar' },
     button('Recenter', () => look.recenter()),
-    button('Sky', () => { const k = ['gradient', 'checker', 'dark']; set('sky', k[(k.indexOf(settings.sky) + 1) % k.length]); }),
+    button('Sky', () => { const k = ['gradient', 'checker', 'dark', 'anime']; set('sky', k[(k.indexOf(settings.sky) + 1) % k.length]); }),
     button('Cues', () => set('cues', CUE_MODES[(cueIndex() + 1) % CUE_MODES.length])),
     button('Shadows', () => set('shadows', !settings.shadows))));
 
